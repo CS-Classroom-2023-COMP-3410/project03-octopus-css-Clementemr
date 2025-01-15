@@ -1,0 +1,176 @@
+/* General body styling */
+body { /* Apply styles to the body element */
+    background-color: #add8e6; /* Light blue background */
+    color: #18618b; /* background color */
+}
+
+#header p{ /* Apply styles to the p element within the header */
+    text-align: left; /*align text to the left*/
+}
+
+/* Header section styling with gradient */
+#header { /* Apply styles to the header element */
+    background: linear-gradient(to right, #466b97, #75aad5); /* Gradient from dark blue to medium blue */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Center-align the text */
+    border-radius: 8px; /* Rounded edges for the header */
+    margin: 10px auto; /* Center the header */
+    width: 90%; /* Take up 90% of the width */
+    max-width: 800px; /* Maximum width of 800px */
+}
+
+
+/* Main content styling */
+#main-content { /* Apply styles to the main-content element */
+    background-color: white; /* White background */
+    margin: 20px auto; /* Center the content */
+    padding: 20px; /* Padding around the content */
+    width: 90%; /* Take up 90% of the width */
+    max-width: 800px; /* Maximum width of 800px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for aesthetics */
+    border-radius: 8px; /* Rounded edges for the content */
+}
+#main-content h2,h3 { /* Apply styles to the h2 and h3 elements within main-content */
+    text-transform : uppercase; /*uppercase text*/
+    color:#35739d ; /*dark blue text*/
+}
+
+#main-content p,ol,ul { /* Apply styles to the p, ol, and ul elements within main-content */
+    font-family: sans-serif; /* Use a sans-serif font */
+    font-size: 14px; /* Set the font size to 14px */
+    
+    
+}
+
+
+.important { /* Apply styles to elements with the class "important" */
+    /*highlight text*/
+    background-color: rgb(121, 222, 236); /*light blue background*/
+    font-weight:bold; /*bold text*/
+}
+
+
+/* Quiz Section */
+#quiz-section { /* Apply styles to the quiz-section element */
+    background-color: #99e3fb; /* Light blue background */
+    margin: 20px auto; /* Center the content */
+    padding: 20px; /* Padding around the content */
+    width: 90%; /* Take up 90% of the width */
+    max-width: 800px; /* Maximum width of 800px */
+    border-radius: 8px; /* Rounded edges for the content */
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Wrap items to the next line if needed */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Add a gap between items */
+}
+
+#quiz-section img { /* Apply styles to the img element within quiz-section */
+    max-width: 120px; /* Set the maximum width of the image */
+    border: 3px solid #a111c5; /* Add a border around the image */
+    border-radius: 8px; /* Rounded edges for the image */
+}
+
+#quiz-section form { /* Apply styles to the form element within quiz-section */
+    flex: 1; /* Take up remaining space */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    gap: 10px; /* Add a gap between items */
+}
+
+#quiz-section input[type="text"] { /* Apply styles to text input elements within quiz-section */
+    padding: 8px; /* Add padding around the input */
+    border: 2px solid #18618b; /* Add a border around the input */
+    border-radius: 4px; /* Rounded edges for the input */
+}
+
+#quiz-section input[type="submit"] { /* Apply styles to submit button within quiz-section */
+    background-color: #0056b3; /* Dark blue background */
+    color: white; /* White text for contrast */
+    padding: 10px; /* Add padding around the button */
+    border: none; /* Remove the default border */
+    border-radius: 4px; /* Rounded edges for the button */
+    font-weight: bold; /* Bold text for emphasis */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#quiz-section input[type="submit"]:hover { /* Apply styles on hover for submit button */
+    background-color: #007bff; /* Light blue background on hover */
+}
+
+label{ /* Apply styles to the label element */
+    font-weight: bold; /*bold text*/
+    font-family: sans-serif; /* Use a sans-serif font */
+}
+
+
+
+#species-table { /* Apply styles to the species-table element */
+    padding:10px; /* Add padding around the table */
+}
+
+/* Table Styling */
+table { /* Apply styles to the table element */
+    width: 90%; /* Match the width of #main-content */
+    margin: 10px auto; /* Match the margin of #main-content */
+    max-width: 840px; /* Match the max-width of #main-content */
+    border-collapse: collapse; /* Remove spacing between table cells */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for aesthetics */
+    overflow: hidden; /* Ensure rounded corners affect table content */
+    font-family: Arial, sans-serif; /* Match the font of the rest of the page */
+    background-color: #add8e6; /* Light blue background */
+    border: 2px solid black; /* Border for the table */
+}
+
+
+
+#species-table h2 { /* Apply styles to the h2 element within species-table */
+    color: #18618b; /* Dark blue text */
+    text-align: left; /* Center-align the header */
+    margin: 0 auto; /* Center within the container */
+    width: 90%; /* Match the width of #main-content and footer */
+    max-width: 840px; /* Match the max-width of #main-content and footer */
+    text-align: left; /* Align the text to the left */
+    color: #0056b3; /* Optional: Match the color scheme */
+    font-size: 1.5em; /* Optional: Adjust font size */
+    padding-left: 10px; /* Optional: Add slight padding if needed */
+
+}
+
+
+/* Table Header Styling */
+table th { /* Apply styles to table headers */
+    background-color: #888888; /* Header background color */
+    color: white; /* White text for contrast */
+    padding: 11px; /* Padding around header text */
+    text-align: left; /* Align header text to the left */
+}
+
+/* Table Body Styling */
+table td { /* Apply styles to table cells */
+    padding: 10px; /* Padding around table cells */
+    text-align: left; /* Align text to the left */
+    border: 2px solid #000000; /* Light border around cells */
+    font-weight: bold; /* Bold text for emphasis */
+    font-family: sans-serif; /* Use a sans-serif font */
+    font-size: 14px; /* Set the font size to 14px */
+    color: #35548e; /* Dark blue text color */
+}
+
+/* Alternating Row Colors */
+table tr:nth-child(odd) { /* Select odd rows */
+    background-color: #ffffff; /* Lightest blue for alternating rows */
+}
+
+
+#footer { /* Apply styles to the footer element */
+    background-color: #315d92; /* Solid dark blue background */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center-align the text */
+    border-radius: 8px; /* Rounded edges for the footer */
+    margin: 10px auto; /* Center the footer */
+    width: 90%; /* Take up 90% of the width */
+    max-width: 800px; /* Maximum width of 800px */
+    font-size: 14px; /* Set the font size to 14px */
+}
